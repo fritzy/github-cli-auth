@@ -1,0 +1,23 @@
+{
+  "name": "github-cli-auth",
+  "version": "1.0.0",
+  "description": "Get and store an auth-token for cli that works with 2-factor auth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:fritzy/github-cli-auth.git",
+  "keywords": [
+    "github",
+    "auth",
+    "2factor"
+  ],
+  "author": "Nathan Fritz",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "github": "^0.2.4",
+    "read": "^1.0.7",
+    "unicons": "0.0.3"
+  }
+}
