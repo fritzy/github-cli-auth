@@ -99,7 +99,6 @@ module.exports = function githubCliAuth(config, callback) {
     }, (err, user, isDefault) => {
       read({
         prompt: "Password:",
-        silent: true,
         replace: unicons.dot
       }, (err, pass) => {
         authBasic(user, pass);
